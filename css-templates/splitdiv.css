@@ -1,0 +1,39 @@
+.splitscreen {
+  display: block;
+  clear: both;
+}
+
+.splitscreen .left {
+  margin: 0px;
+  width: 50%;
+  float: left;
+}
+
+.splitscreen .left .imagesidebar {
+  width: 100%;
+  opacity: 1;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.splitscreen .left .imagesidebar:hover {
+  opacity: 0.7;
+}
+
+.splitscreen .right {
+  margin: 0px;
+  width: 50%;
+  float: right;
+}
+
+.splitscreen .right h1 {
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-right: 5%;
+  font-size: 200%;
+}
+
+.splitscreen .right p {
+  font-size: 100%;
+  margin-left: 10%;
+  margin-right: 5%;
+}

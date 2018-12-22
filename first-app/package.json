@@ -1,0 +1,15 @@
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "app.js",
+  "dependencies": {
+    "mathjs": "^5.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zachary Martinez",
+  "license": "ISC"
+}

@@ -1,0 +1,13 @@
+Electrial Symbols for lines
+	Ground
+	Capacitor
+	Inductor
+	Battery
+	Resistor
+	Transformer
+	Mosfet
+Equations for background
+
+Geometric Shapes to make a rocket Logo
+
+Color Class/picker
