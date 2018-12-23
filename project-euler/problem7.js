@@ -11,19 +11,14 @@ function isPrime(num) {
     }
     i++;
   }
-
   return result;
 }
 
-while (true) {
+while (primes.length <= 10001) {
   if (isPrime(testNum)) {
     primes.push(testNum);
-    if (testNum > 1e9) {
-      console.log(testNum);
-    }
-  }
-  if (testNum % 1000000 === 0) {
-    console.log("Checked Primes up to :" + testNum);
   }
   testNum++;
 }
+
+console.log(primes[10000]);
